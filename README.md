@@ -34,6 +34,15 @@ After running the first time, the generated TOC will look like this:
 <!-- toc stop -->
 ```
 
+Which looks like this in the browser:
+
+<!-- toc -->
+* [Usage](#usage)
+* [Author](#author)
+* [License](#license)
+
+<!-- toc stop -->
+
 _Note that GitHub Flavored Markdown requires the extra newline for the `<!-- toc stop -->` code comment to remain hidden._
 
 
