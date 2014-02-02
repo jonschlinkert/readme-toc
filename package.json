@@ -1,6 +1,6 @@
 {
   "name": "readme-toc",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Generate a TOC for your project's README in 2 seconds, maybe 3.",
   "repository": {
     "type": "git",
@@ -27,8 +27,7 @@
   },
   "dependencies": {
     "fs-utils": "~0.2.1",
-    "marked-toc": "~0.1.5",
-    "template": "~0.1.5"
+    "marked-toc": "~0.1.5"
   },
   "devDependencies": {
     "chai": "~1.9.0",
