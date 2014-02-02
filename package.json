@@ -1,0 +1,43 @@
+{
+  "name": "readme-toc",
+  "version": "0.1.0",
+  "description": "Generate a TOC for your project's README in 2 seconds, maybe 3.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jonschlinkert/readme-toc.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/readme-toc/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/jonschlinkert/readme-toc/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "bin": {
+    "toc": "./bin/toc"
+  },
+  "dependencies": {
+    "fs-utils": "~0.2.1",
+    "marked-toc": "~0.1.5",
+    "template": "~0.1.5"
+  },
+  "devDependencies": {
+    "chai": "~1.9.0",
+    "mocha": "~1.17.1"
+  },
+  "keywords": [
+    "readme-toc",
+    "readme-toc path",
+    "path.readme-toc",
+    "path"
+  ]
+}
