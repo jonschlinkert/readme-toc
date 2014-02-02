@@ -2,12 +2,6 @@
 
 > Generate a TOC for your project's README in 2 seconds, maybe 3.
 
-<!-- toc -->
-* [Usage](#usage)
-* [Author](#author)
-* [License](#license)
-
-<!-- toc stop -->
 
 ```bash
 npm i -g readme-toc --save
@@ -26,6 +20,22 @@ Next, from same directory as your README, run the following in the command line:
 ```js
 toc
 ```
+
+## Example
+
+After running the first time, the generated TOC will look like this:
+
+```markdown
+<!-- toc -->
+* [Usage](#usage)
+* [Author](#author)
+* [License](#license)
+
+<!-- toc stop -->
+```
+
+_Note that GitHub Flavored Markdown requires the extra newline for the `<!-- toc stop -->` code comment to remain hidden._
+
 
 ## Author
 
